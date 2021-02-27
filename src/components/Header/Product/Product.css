@@ -1,0 +1,28 @@
+.product-area {
+  display: flex;
+  width: 95%;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-bottom: 1px solid lightgray;
+}
+.image-area {
+  width: 20rem;
+  object-fit: contain;
+}
+.image-area img {
+  /* border: 1px solid red; */
+  width: 20rem;
+}
+.product-details {
+  /* border: 1px dotted blue; */
+  margin-left: 15px;
+}
+.product-title {
+  color: blue;
+}
+.add-cart-button {
+  background-color: goldenrod;
+  width: 10rem;
+  font-size: large;
+  border-radius: 3px;
+}
